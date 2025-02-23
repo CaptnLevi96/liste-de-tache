@@ -35,3 +35,6 @@ Sur le plan technique, je voudrais également:
 
 Ce projet m'a permis de mettre en pratique de nombreux concepts de React et de développer mes compétences en programmation frontend. 
 Les défis que j'ai rencontrés m'ont poussé à approfondir ma compréhension des bonnes pratiques de développement et à créer une application plus robuste et maintenable.
+![Capture d’écran, le 2025-02-23 à 17 53 51](https://github.com/user-attachments/assets/38cb081b-8909-4022-aa8b-226123673db4)
+
+![Capture d’écran, le 2025-02-23 à 17 53 32](https://github.com/user-attachments/assets/0f50cc1e-a071-48ba-8211-8ccd8e794cce)
