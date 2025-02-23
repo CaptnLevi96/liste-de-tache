@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff8dc; /* Fond jaune très clair (cornsilk) */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Ajout d'effets de focus améliorés */
+button:focus,
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.4);
+}
+
+/* Animation pour les éléments complétés */
+.terminee {
+  animation: FonduComplet 0.3s ease-in-out;
+}
+
+@keyframes FonduComplet {
+  from {
+    opacity: 1;
+    background-color: #fff9e6;
+  }
+  to {
+    opacity: 0.8;
+    background-color: #fffdf7;
+  }

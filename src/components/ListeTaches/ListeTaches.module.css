@@ -1,0 +1,27 @@
+.conteneur {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: inset 0 2px 4px rgba(218, 165, 32, 0.1);
+}
+
+.liste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.messageVide {
+    text-align: center;
+    color: #b8860b;
+    padding: 40px 0;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.conteneurVide {
+    background-color: #fffdf7;
+    border: 2px dashed #ffd700;
+    border-radius: 8px;
+    padding: 20px;
+}

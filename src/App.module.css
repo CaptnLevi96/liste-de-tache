@@ -1,0 +1,66 @@
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contenuPrincipal {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.listesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.listeActive,
+.listeArchives {
+    background-color: #fffdf7;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.listeArchives {
+    border-top: 2px dashed #ffd700;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.listeActive h2,
+.listeArchives h2 {
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.listeArchives h2 {
+    color: #666;
+}
+
+.conteneurListe {
+    margin-top: 20px;
+}
+
+.messageVide {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px dashed #ffd700;
+}
+
+@media (max-width: 600px) {
+    .app {
+        padding: 10px;
+    }
+
+    .contenuPrincipal {
+        padding: 15px;
+    }
+}

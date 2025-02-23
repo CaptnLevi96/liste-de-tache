@@ -1,0 +1,48 @@
+.conteneur {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ffd700;
+}
+
+.barreRecherche {
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 700px;
+    padding: 10px;
+    border: 1px solid #ffd700;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #ffb700;
+    box-shadow: 0 0 0 2px rgba(255, 183, 0, 0.2);
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+    color: #4a4a4a;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    accent-color: #ffb700;
+    cursor: pointer;
+}
